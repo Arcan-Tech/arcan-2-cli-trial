@@ -1,4 +1,4 @@
-name: Build Docker Image
+name: Build and push
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ jobs:
     runs-on: self-hosted
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Docker image
+    - name: Build the image
       run: docker build --target cli --tag ghcr.io/${{ env.REPOSITORY_OWNER_LC }}/arcan-2-cli-trial:latest
     - name: Push the image
       run: docker push ghcr.io/${{ env.REPOSITORY_OWNER_LC }}/arcan-2-cli-trial:latest

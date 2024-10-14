@@ -1,7 +1,7 @@
 # Arcan 2 CLI Trial
 This repository contains the trial version of Arcan 2 CLI.
 Arcan is an automatic tool for software quality analysis and (Architectural) Technical Debt detection, evaluation and visualisation. 
-The analysis is available for the following programming languages: Java, C, C++, C#*, Python*.
+The analysis is available for the following programming languages: Java, C, C++, C#\*, Python\*.
 
 (Note: * these languages require configuring a language server, or using the dockerized version).
 

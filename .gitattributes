@@ -1,0 +1,2 @@
+bin/Arcan2-cli-2.9.6-RELEASE.zip filter=lfs diff=lfs merge=lfs -text
+bin/Arcan2-cli-2.11.1-RELEASE.zip filter=lfs diff=lfs merge=lfs -text
